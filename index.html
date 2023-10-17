@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact List App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+
+    <div class="container">
+        <div class="inner">
+
+            <h1 class="app__title">Contact List App</h1>
+
+            <section class="form">
+
+                <h2 class="form__title">Create a new contact</h2>
+    
+                <form>
+                    <input type="text" name="name" class="input__new-name" value="" placeholder="Name*">
+                    <input type="tel" name="tel" class="input__new-tel" value="" placeholder="Tel*">
+                    <button class="btn__add">Add</button>
+                    <button class="btn__delete-all" disabled>Delete List</button>
+                </form>
+
+            </section>
+
+            <main class="contacts">
+
+                <h2 class="contacts__title">Contact List</h2>
+
+                <div class="contacts__container">
+
+                    <p class="default-message">You have no contact in your list.</p>
+                    
+                    <ul class="contacts__list">
+                    </ul>
+                    
+                </div>
+
+            </main>
+    
+                    
+        </div>
+    </div>
+    
+</body>
+</html>
